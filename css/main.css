@@ -16,6 +16,11 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 header {
   background-color: white;
   margin-bottom: 1rem;
@@ -23,8 +28,9 @@ header {
 
 h1 {
   font-family: "Delius Unicase", cursive;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: gold;
+  margin-left: 1rem;
 }
 
 nav {
@@ -33,6 +39,7 @@ nav {
   color: gray;
   display: inline-block;
   list-style: none;
+  margin-left: 1rem;
 }
 
 ul {
@@ -58,9 +65,36 @@ nav a:hover {
   border: 1px;
   border-radius: 6px;
   text-decoration: none;
-  color: red;
+  color: #ff3333;
 }
 
-section img {
+header img {
+  width: 100%;
+  margin-top: 1rem;
+  margin-left: .5rem;
+}
+
+section {
+  background-color: #ffcc99;
+}
+
+section h2 {
+  color: #ff3333;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+}
+
+section p {
+  text-align: center;
+}
+
+.products h2 {
+  color: #ff3333;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+}
+
+.products img {
   width: 100%;
 }
