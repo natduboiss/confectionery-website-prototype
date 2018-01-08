@@ -53,11 +53,20 @@ li {
   float: left;
 }
 
-a {
+nav a {
   text-decoration: none;
   display: inline;
   padding: 10px;
   color: gold;
+}
+
+.products a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  padding: .5rem;
+  background-color: #c0c0c0;
+  border-radius: 6px;
 }
 
 nav a:hover {
@@ -65,7 +74,7 @@ nav a:hover {
   border: 1px;
   border-radius: 6px;
   text-decoration: none;
-  color: #ff3333;
+  color: #f33;
 }
 
 header img {
@@ -75,11 +84,12 @@ header img {
 }
 
 section {
-  background-color: #ffcc99;
+  /*background-color: #fc9;*/
+  background-image: linear-gradient(to right, #fff, #fc9, #fc9, #fc9, #fff);
 }
 
 section h2 {
-  color: #ff3333;
+  color: #f33;
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 1.25rem;
@@ -90,11 +100,65 @@ section p {
 }
 
 .products h2 {
-  color: #ff3333;
+  color: #f33;
   font-family: "Roboto", sans-serif;
   font-size: 1.25rem;
+  margin-left: .5rem;
 }
 
-.products img {
+.products h3 {
+  color: white;
+  margin-left: .5rem;
+  margin-bottom: 10px;
+}
+
+.products a:hover {
+  background-color: grey;
+  border: 1px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+}
+
+.white {
+  position: relative;
+}
+
+.white img {
+  display: block;
   width: 100%;
+  margin-bottom: 2rem;
+}
+
+.white h3 {
+  position: absolute;
+  bottom: 1rem;
+}
+
+.milk {
+  position: relative;
+}
+
+.milk img {
+  display: block;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.milk h3 {
+  position: absolute;
+  bottom: 1rem;
+}
+
+.dark {
+  position: relative;
+}
+.dark img {
+  display: block;
+  width: 100%;
+}
+
+.dark h3 {
+  position: absolute;
+  bottom: .5rem;
 }
