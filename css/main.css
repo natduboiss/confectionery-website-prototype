@@ -35,31 +35,24 @@ h1 {
   padding: .5rem;
 }
 
-nav {
-  text-transform: none;
-  text-decoration: none;
-  color: gray;
-  display: inline-block;
-  list-style: none;
-  margin-left: 1rem;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
+.nav {
+  list-style-type: none;
+  display: none;
   padding: 0;
+  margin: 0 0 1rem;
 }
 
-li {
-  display: inline;
-  float: left;
+.nav li {
+  margin: .5rem;
+  border-bottom: 1px solid black;
 }
 
-nav a {
+.nav a {
   text-decoration: none;
-  display: inline;
-  padding: 10px;
+  display: block;
+  padding: .75rem .5rem;
   color: gold;
+  border-radius: 5px;
 }
 
 .products a {
@@ -71,17 +64,63 @@ nav a {
   border-radius: 6px;
 }
 
-nav a:hover {
+.nav a:hover {
   background-color: beige;
-  border: 1px;
-  border-radius: 6px;
   text-decoration: none;
-  color: #f33;
+  color: #f93;
 }
 
-header img {
+.nav .current {
+  color: #f93;
+}
+
+.nav-check {
+  display: none;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+#nav-label {
+  width: 24px;
+  position: absolute;
+  right: 12px;
+  top: 7px;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ #nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ #nav-label .nav-close {
+  display: block;
+}
+
+.banner {
+  margin: 0;
+}
+
+.img-banner {
   width: 100%;
   margin-top: 1rem;
+}
+
+.welcome {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 1rem;
+  font-size: 1.3rem;
 }
 
 section {
