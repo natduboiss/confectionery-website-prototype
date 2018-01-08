@@ -17,21 +17,22 @@ html {
 }
 
 body {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin: 0;
 }
 
 header {
-  background-color: white;
-  margin-bottom: 1rem;
+  margin: 0;
+  position: relative;
 }
 
 h1 {
   text-align: center;
+  border-top: 1px solid black;
   font-family: "Delius Unicase", cursive;
   font-size: 2rem;
   color: gold;
-  margin-left: 1rem;
+  margin: 1rem;
+  padding: .5rem;
 }
 
 nav {
