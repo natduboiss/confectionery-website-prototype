@@ -274,3 +274,25 @@ b {
   margin-top: 2rem;
   margin-bottom: 0;
 }
+
+@media only screen and (min-width: 25em) {
+
+  h1 {
+    border-bottom: 1px solid black;
+  }
+
+  #nav-label {
+    display: none;
+  }
+
+  .nav {
+    display: block;
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+    border-bottom: none;
+  }
+
+}
