@@ -29,7 +29,7 @@ header {
 h1 {
   text-align: center;
   font-family: "Delius Unicase", cursive;
-  font-size: 1.25rem;
+  font-size: 2rem;
   color: gold;
   margin-left: 1rem;
 }
@@ -104,7 +104,7 @@ section p {
   text-align: center;
   color: gold;
   font-family: Roboto, sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin-left: .5rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -172,7 +172,7 @@ section p {
   text-align: center;
   color: gold;
   font-family: Roboto, sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin-left: .5rem;
 }
 
@@ -203,8 +203,35 @@ i {
 
 .hours h2 {
   text-align: center;
-  color: gold;
+  color: #f33;
   font-family: Roboto, sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin-left: .5rem;
+  margin-bottom: 3rem;
+}
+
+.hours {
+  background-color: #fc9;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.hours p {
+  margin-bottom: 0;
+  font-size: 1.25rem;
+  margin-left: 1rem;
+}
+
+.hours p:nth-child(odd) {
+  margin-top: 0;
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+.hours p:last-child {
+  margin-bottom: 2rem;
+}
+
+footer {
+  text-align: center;
 }
