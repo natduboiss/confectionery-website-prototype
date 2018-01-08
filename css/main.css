@@ -1,5 +1,15 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
 html {
   box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 *, *::before, *::after {
@@ -7,5 +17,48 @@ html {
 }
 
 header {
-  background-color: gray;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-family: 'Delius Unicase', cursive;
+  font-size: 1.50rem;
+}
+
+nav {
+  text-transform: none;
+  text-decoration: none;
+  color: gray;
+  display: inline-block;
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  float: left;
+}
+
+a {
+  text-decoration: none;
+  display: inline;
+  padding: 10px;
+  color: black;
+}
+
+nav a:hover {
+  background-color: beige;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+section img {
+  width: 60%;
 }
