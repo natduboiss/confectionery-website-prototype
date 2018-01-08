@@ -64,7 +64,7 @@ h1 {
   text-decoration: none;
 }
 
-.nav a:hover {
+header .nav a:hover {
   background-color: beige;
   text-decoration: none;
   color: #f93;
@@ -139,7 +139,6 @@ h1 {
   font-size: 1.3rem;
   color: #f93;
   margin-top: 1rem;
-  margin: 0;
   padding: 1em;
 }
 
@@ -216,7 +215,6 @@ h1 {
 .semisweet figcaption {
   margin: 0;
   position: absolute;
-  float: left;
   left: 5px;
   bottom: 5px;
 }
