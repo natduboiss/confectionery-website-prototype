@@ -121,17 +121,24 @@ h1 {
 
 .intro {
   background-color: beige;
+  margin-top: 1rem;
+  padding: 1rem;
 }
 
 .intro-content {
+  background-color: beige;
   text-align: center;
   margin: 1rem;
+  border: 2px solid #f93;
+  border-radius: 6px;
+  padding: 1rem;
 }
 
 .intro-content h2 {
   font-family: Roboto, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #f93;
+  margin-top: 1rem;
   margin: 0;
   padding: 1em;
 }
@@ -232,4 +239,40 @@ h1 {
 
 .quote blockquote {
   font-family: Roboto, sans-serif;
+}
+
+.bottom-footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: beige;
+}
+
+.whole-footer {
+  border: 2px solid #f93;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.whole-hours {
+  list-style-type: none;
+  padding: 0;
+}
+
+.whole-hours h2 {
+  color: #f93;
+  text-align: center;
+}
+
+.whole-hours .hours {
+  list-style-type: none;
+}
+
+b {
+  font-size: 1.4rem;
+}
+
+.bottom {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 0;
 }
