@@ -22,8 +22,9 @@ header {
 }
 
 h1 {
-  font-family: 'Delius Unicase', cursive;
-  font-size: 1.50rem;
+  font-family: "Delius Unicase", cursive;
+  font-size: 1.5rem;
+  color: gold;
 }
 
 nav {
@@ -49,16 +50,17 @@ a {
   text-decoration: none;
   display: inline;
   padding: 10px;
-  color: black;
+  color: gold;
 }
 
 nav a:hover {
   background-color: beige;
-  border: 1px solid lightgrey;
-  border-radius: 10px;
+  border: 1px;
+  border-radius: 6px;
   text-decoration: none;
+  color: red;
 }
 
 section img {
-  width: 60%;
+  width: 100%;
 }
