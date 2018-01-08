@@ -120,24 +120,37 @@ h1 {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   margin: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  color: #f93;
 }
 
-section {
-  background-image: linear-gradient(to right, #fff, #fc9, #fc9, #fc9, #fff);
+.intro {
+  background-color: beige;
 }
 
-section h2 {
-  color: #f33;
+.intro-content {
   text-align: center;
-  font-family: Roboto, sans-serif;
-  font-size: 1.25rem;
+  margin: 1rem;
 }
 
-section p {
-  text-align: center;
+.intro-content h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  color: #f93;
+  margin: 0;
+  padding: 1em;
+}
+
+.intro-content p {
+  margin: 0;
+  padding: 1rem;
   font-family: sans-serif;
-  font-size: .85rem;
+  font-size: .95rem;
+}
+
+.img-intro {
+  width: 100%;
+  margin-top: 1rem;
 }
 
 .products h2 {
@@ -145,23 +158,20 @@ section p {
   color: gold;
   font-family: Roboto, sans-serif;
   font-size: 1.5rem;
-  margin-left: .5rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin: 1rem auto 1.5rem;
+}
+
+.img-bittersweet {
+  width: 100%;
+  margin-top: 1rem;
 }
 
 .products h3 {
+  font-family: Roboto, sans-serif;
+  font-size: 1.4rem;
   color: white;
   margin-left: .5rem;
   margin-bottom: 10px;
-}
-
-.products a:hover {
-  background-color: grey;
-  border: 1px;
-  border-radius: 6px;
-  text-decoration: none;
-  color: white;
 }
 
 .white {
