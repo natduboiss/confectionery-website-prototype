@@ -27,6 +27,7 @@ header {
 }
 
 h1 {
+  text-align: center;
   font-family: "Delius Unicase", cursive;
   font-size: 1.25rem;
   color: gold;
@@ -80,7 +81,6 @@ nav a:hover {
 header img {
   width: 100%;
   margin-top: 1rem;
-  margin-left: .5rem;
 }
 
 section {
@@ -96,6 +96,8 @@ section h2 {
 
 section p {
   text-align: center;
+  font-family: sans-serif;
+  font-size: .85rem;
 }
 
 .products h2 {
@@ -166,7 +168,40 @@ section p {
   bottom: .5rem;
 }
 
-.reviews h2 {
+.review1 h2 {
+  text-align: center;
+  color: gold;
+  font-family: Roboto, sans-serif;
+  font-size: 1.25rem;
+  margin-left: .5rem;
+}
+
+.review1 img {
+  width: 100%;
+}
+
+.review1 p {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: .85rem;
+}
+
+.review2 img {
+  width: 100%;
+}
+
+.review2 p {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: .85rem;
+}
+
+i {
+  font-family: sans-serif;
+  font-size: .85rem;
+}
+
+.hours h2 {
   text-align: center;
   color: gold;
   font-family: Roboto, sans-serif;
