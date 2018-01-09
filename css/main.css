@@ -34,7 +34,7 @@ h1 {
   text-align: center;
   border-top: 1px solid black;
   font-family: "Delius Unicase", cursive;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: gold;
   margin: 1rem;
   padding: .5rem;
@@ -50,6 +50,7 @@ h1 {
 .nav li {
   margin: .5rem;
   border-bottom: 1px solid black;
+  font-size: 1.3rem
 }
 
 .nav a {
@@ -235,7 +236,11 @@ header .nav a:hover {
   margin: 1rem auto 1.5rem;
 }
 
-.quote blockquote {
+.quote1 blockquote {
+  font-family: Roboto, sans-serif;
+}
+
+.quote2 blockquote {
   font-family: Roboto, sans-serif;
 }
 
@@ -279,6 +284,7 @@ b {
 
   h1 {
     border-bottom: 1px solid black;
+    font-size: 2.5rem;
   }
 
   #nav-label {
@@ -293,6 +299,46 @@ b {
   .nav li {
     display: inline-block;
     border-bottom: none;
+    font-size: 1.3rem
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
   }
 
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .nav li {
+    font-size: 1.3rem;
+  }
+
+  .banner .img-flex {
+    position: relative;
+  }
+
+  .welcome {
+    position: absolute;
+    bottom: 5px;
+    left: 52px;
+  }
+
+  .review .review1 {
+    max-width: 50%;
+    position: relative;
+    margin: 0 0 auto;
+  }
+
+  .review1 .quote {
+    width: 50%;
+    margin: 0;
+    position: absolute;
+    left: 20rem;
+    top: 5rem;
+  }
 }
