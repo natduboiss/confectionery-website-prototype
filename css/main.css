@@ -268,6 +268,8 @@ header .nav a:hover {
 
 .whole-hours .hours {
   list-style-type: none;
+  text-align: center;
+  padding: 0;
 }
 
 b {
@@ -318,27 +320,44 @@ b {
     font-size: 1.3rem;
   }
 
-  .banner .img-flex {
-    position: relative;
+  .hours li {
+    display: inline-block;
+    padding: 0 1rem;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
   }
 
-  .welcome {
-    position: absolute;
-    bottom: 5px;
-    left: 52px;
-  }
-
-  .review .review1 {
-    max-width: 50%;
-    position: relative;
-    margin: 0 0 auto;
-  }
-
-  .review1 .quote {
-    width: 50%;
+  h1 {
+    font-size: 2rem;
     margin: 0;
+    float: left;
+    border: none;
+  }
+
+  .banner {
+    margin: 0 0 2.5rem;
+    position: relative;
+    max-height: 873px;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .banner .welcome {
+    font-size: 1.5rem;
     position: absolute;
-    left: 20rem;
-    top: 5rem;
+    bottom: 0;
+    right: 0;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    background-color: grey;
+    margin: 1rem;
+    padding: .25rem;
   }
 }
