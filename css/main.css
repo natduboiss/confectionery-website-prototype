@@ -50,7 +50,7 @@ h1 {
 .nav li {
   margin: .5rem;
   border-bottom: 1px solid black;
-  font-size: 1.3rem
+  font-size: 1.3rem;
 }
 
 .nav a {
@@ -299,7 +299,7 @@ b {
   .nav li {
     display: inline-block;
     border-bottom: none;
-    font-size: 1.3rem
+    font-size: 1.3rem;
   }
 }
 
