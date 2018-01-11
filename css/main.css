@@ -361,3 +361,72 @@ b {
     padding: .25rem;
   }
 }
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
+  .product-wrap {
+    position: relative;
+    margin-bottom: 50rem;
+  }
+
+  .bittersweet .img-flex {
+    position: absolute;
+    display: inline-block;
+    width: 45%;
+    left: 60px;
+  }
+
+  .bittersweet figcaption {
+    position: absolute;
+    left: 225px;
+    top: 360px;
+  }
+
+  .milk .img-flex {
+    display: inline-block;
+    width: 45%;
+    position: absolute;
+    left: 750px;
+  }
+
+  .milk figcaption {
+    position: absolute;
+    top: 360px;
+    left: 960px;
+  }
+
+  .white .img-flex {
+    display: inline-block;
+    width: 45%;
+    position: absolute;
+    top: 500px;
+    left: 60px;
+  }
+
+  .white figcaption {
+    position: absolute;
+    left: 260px;
+    top: 860px;
+  }
+
+  .semisweet .img-flex {
+    display: inline-block;
+    width: 45%;
+    position: absolute;
+    left: 750px;
+    top: 500px;
+  }
+
+  .semisweet figcaption {
+    position: absolute;
+    left: 910px;
+    top: 860px;
+  }
+
+  
+}
