@@ -360,6 +360,21 @@ b {
     margin: 1rem;
     padding: .25rem;
   }
+
+  .intro-content h2 {
+    font-size: 2rem;
+  }
+
+  .products h2 {
+    font-size: 2rem;
+    border-top: 2px solid black;
+  }
+
+  .review h2 {
+    font-size: 2rem;
+    border-top: 2px solid black;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -367,6 +382,19 @@ b {
   html {
     font-size: 130%;
     line-height: 1.5;
+  }
+
+  .intro-content h2 {
+    font-size: 2rem;
+  }
+
+  .intro-content p {
+    font-size: 1rem;
+  }
+
+  .products h2 {
+    font-size: 3rem;
+    border-top: 2px solid black;
   }
 
   .product-wrap {
@@ -428,5 +456,40 @@ b {
     top: 860px;
   }
 
-  
+  .review h2 {
+    font-size: 3rem;
+    border-top: 2px solid black;
+  }
+
+  .review-img1 .img-flex {
+    width: 50%;
+    display: inline-block;
+  }
+
+  .review-whole {
+    position: relative;
+    margin-bottom: 10rem;
+  }
+
+  .quote1 blockquote {
+    position: absolute;
+    font-size: 1rem;
+    left: 100px;
+  }
+
+  .review-img2 .img-flex {
+    width: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 700px;
+    bottom: 9px;
+  }
+
+  .quote2 blockquote {
+    position: absolute;
+    font-size: 1rem;
+    left: 700px;
+  }
+
+
 }
